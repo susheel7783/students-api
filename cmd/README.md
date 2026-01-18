@@ -16,3 +16,18 @@ go run cmd/students-api/main.go
 `
 git init
 `
+and then stage all the files and then commit
+
+
+<!-- after adding config file first stage change and then again commit -->
+
+`
+go to vs code github extension and click on +icon to stage and then write message add config file 
+and then commit
+`
+commit each steps this is the good practice
+
+
+
+<!-- install the below package -->
+go get -u github.com/ilyakaznacheev/cleanenv
