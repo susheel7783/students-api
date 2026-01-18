@@ -31,3 +31,9 @@ commit each steps this is the good practice
 
 <!-- install the below package -->
 go get -u github.com/ilyakaznacheev/cleanenv
+
+
+<!-- so for  the checking server started or not run below command -->
+`
+go run cmd/students-api/main.go -config config/local.yaml
+`
