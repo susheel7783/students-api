@@ -30,3 +30,6 @@ go.work.sum
 # Editor/IDE
 # .idea/
 # .vscode/
+
+# we ignore storage files also so that local db files are not committed to github
+storage
