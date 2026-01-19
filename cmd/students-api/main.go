@@ -33,6 +33,8 @@ func main() {
 
 	// get by id
 	router.HandleFunc("GET /api/students/{id}", student.GetById(storage))
+	// get list of students
+	router.HandleFunc("GET /api/students", student.GetList(storage))
 
 	// router.HandleFunc("GET /", func(w http.ResponseWriter, r *http.Request) {
 	// 	w.Write([]byte("Welcome to students-api"))
