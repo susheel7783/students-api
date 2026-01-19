@@ -37,3 +37,9 @@ go get -u github.com/ilyakaznacheev/cleanenv
 `
 go run cmd/students-api/main.go -config config/local.yaml
 `
+
+
+ <!-- we have to install sqlite3 driver  to install run this command  -->
+`
+go get github.com/mattn/go-sqlite3
+`

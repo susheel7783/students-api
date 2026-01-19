@@ -32,7 +32,7 @@ go.work.sum
 # .vscode/
 
 # we ignore storage files also so that local db files are not committed to github
-storage
+/storage
 
 # put config files also in gitignore to avoid committing config file 
-config
+/config
