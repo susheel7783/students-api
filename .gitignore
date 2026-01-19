@@ -33,6 +33,7 @@ go.work.sum
 
 # we ignore storage files also so that local db files are not committed to github
 /storage
+# /storage means root folder storage file are ignored
 
 # put config files also in gitignore to avoid committing config file 
 /config
